@@ -1,0 +1,260 @@
+/****************************/
+/* UNIVERSAL STYLES */
+/****************************/
+body, wrapper {
+	min-height: 100vh;
+	font-family: 'Viga', sans-serif;
+	letter-spacing: .08em;
+}
+
+.main {
+	flex: 1;
+}
+
+.avatar {
+	width: 40px;
+	max-height: 40px;
+	border-radius: 50%;
+	margin: 5px;
+}
+
+nav {
+	background: url(../img/nav-bg.png) no-repeat center center;
+	background-size: cover;
+	min-height: 180px;
+	opacity: .8;
+}
+
+.flash {
+	max-height: 0;
+}
+
+.site-name {
+	font-size: 26px;
+}
+
+.home-brand:hover,
+.home-link:hover {
+	opacity: .6;
+}
+
+.nav-item {
+	font-size: 14px;
+	margin-top: 3px;
+}
+
+.navbar form input,
+.navbar form a {
+	padding: 7px;
+	font-size: 11px;
+	transition: all .35s ease-in-out;
+}
+
+.navbar form a.btn-outline-info {
+	border-right: none;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	cursor: pointer;
+}
+
+.navbar form a.btn-outline-success {
+	border-left: none;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	cursor: pointer;
+}
+
+.navbar form a.btn-outline-warning {
+	cursor: pointer;
+}
+
+.navbar form input {
+	max-width: 100px;
+}
+
+.footer-text {
+	font-size: 12px;
+	margin-top: -5px;
+	padding-bottom: 0px;
+}
+
+/****************************/
+/* INDEX */
+/****************************/
+header.jumbotron {
+	background: url(../img/jumbo-bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+	opacity: 1;
+	min-height: 600px;
+	min-width: 100%;
+	color: white;
+	border-radius: 0;
+}
+
+header h1 {
+	font-size: 3.5em;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.index-card {
+	margin-bottom: 25px;
+}
+
+.index-card-img-top {
+	width: 100%;
+
+}
+
+.index-card-block a {
+	font-size: 11px;
+	max-width: 100%;
+}
+
+.index-card-block p {
+	font-size: 13px;
+	max-width: 100%;
+}
+
+.search-form {
+	width: ;
+	margin-top: 70px;
+}
+
+.search-input {
+	max-width: 250px;
+}
+
+.search-btn {
+	max-width: 100px;
+	cursor: pointer;
+}
+
+.jumbo-btn {
+	display: inline-block;
+}
+
+/****************************/
+/* CAMPGROUND SHOW */
+/****************************/
+.camp-description {
+	font-size: 1.1em;
+}
+
+.delete-form {
+	display: inline;
+}
+
+.delete-btn {
+	cursor: pointer;
+}
+
+#map {
+	margin-top: 20px;
+	height: 400px;
+	width: 100%;
+	border-radius: 5px;
+}
+
+/****************************/
+/* USER PROFILE SHOW */
+/****************************/
+.profile-image {
+	border-radius: 5%;
+}
+
+.user-campground-list {
+	font-size: 20px;
+	padding: 15px;
+	display: inline-block;
+}
+
+
+/****************************/
+/* NEW CAMPGROUND FORM */
+/****************************/
+
+.new-campground-heading {
+	font-size: 26px;
+}
+
+.new-campground-form {
+	font-size: 16px;
+}
+
+.new-campground-form button,
+.new-campground-form a {
+	font-size: 16px;
+	padding: 8px;
+	cursor: pointer;
+}
+
+.form-group input,
+.form-group textarea {
+	font-size: 16px;
+}
+
+/****************************/
+/* LOGIN & SIGNUP FORM */
+/****************************/
+.login-form {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.login-btn {
+	padding: 10px;
+	cursor: pointer;
+}
+
+.goback {
+	margin-left: 20%;
+	display: block;
+	font-size: .75em;
+}
+
+@media(max-width: 992px) {
+	nav {
+		min-height: 130px;
+	}
+}
+
+/* Fixes responsive navbar centering in xs */
+@media screen and (max-width: 575px) {
+    .nav-container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

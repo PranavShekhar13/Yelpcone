@@ -1,0 +1,40 @@
+{
+  "name": "yelpcamp",
+  "version": "1.0.0",
+  "description": "Yelp Camp - Colt Steele Web Developer Bootcamp",
+  "engines": {
+    "node": "6.9.4",
+    "npm": "5.3.0"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobWylie/yelpcamp.git"
+  },
+  "author": "Jacob Wylie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacobWylie/yelpcamp/issues"
+  },
+  "homepage": "https://github.com/JacobWylie/yelpcamp#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "geocoder": "^0.2.3",
+    "locus": "^2.0.1",
+    "method-override": "^2.3.9",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.1",
+    "mongoose-session": "0.0.4",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0",
+    "path": "^0.12.7"
+  }
+}
