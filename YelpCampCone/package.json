@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/JacobWylie/yelpcamp#readme",
   "dependencies": {
-    "body-parser": "^1.17.2",
+    "body-parser": "^1.20.1",
     "connect-flash": "^0.1.1",
     "ejs": "^2.5.6",
-    "express": "^4.15.3",
+    "express": "^4.18.2",
     "geocoder": "^0.2.3",
     "locus": "^2.0.1",
     "method-override": "^2.3.9",
